@@ -93,4 +93,4 @@ import axios from 'axios'
 
 @use './assets/scss/main.scss';
 
-</style>./components/CardsContainer.vue/index.js
+</style>
