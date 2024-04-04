@@ -18,7 +18,7 @@ import {store} from '../assets/data/store.js'
 
     <div class="d-flex justify-content-center align-items-center ">
       
-      <input class=" me-2 " type="text" v-model="store.apiParams.query">
+      <input class=" me-2 " type="text" v-model.trim="store.apiParams.query">
       <button @click="$emit('search')" type="button" class="btn btn-success">Search</button>
 
 

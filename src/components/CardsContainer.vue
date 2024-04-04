@@ -36,29 +36,42 @@ import {store} from '../assets/data/store.js'
 </script>
 
 <template>
-  <div class="container text-center my-5">
 
-    
-    
-    <h2>{{ title }}</h2>
+  <main>
+  
 
-    <div class="row row-cols-4">
+    <div class="container text-center py-5 text-white ">
 
-      <Card v-for="card in store[type]" :key="card.id" 
-      :cardObject=card
-      />
+      
+      
+      <h2>{{ title }}</h2>
 
+      <div class="row row-cols-4">
+
+        <Card v-for="card in store[type]" :key="card.id" 
+        :cardObject=card
+        />
+
+
+      </div>
+
+
+      
 
     </div>
 
 
-    
+  </main>
 
-  </div>
+  
 </template>
 
 
 
 <style lang="scss" scoped>
+
+
+main{background-color: #1f1f1f}
+
 
 </style>

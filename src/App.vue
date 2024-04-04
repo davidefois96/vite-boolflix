@@ -93,4 +93,13 @@ import axios from 'axios'
 
 @use './assets/scss/main.scss';
 
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+
+
+}
 </style>
